@@ -33,6 +33,10 @@ Now Build your docker file by using `docker build -t name:tag .` then image is c
 Its time to run your image of project -
 `docker run -p port:port -d container_id`
 
+
+
+Ref - https://blog.logrocket.com/dockerizing-django-app/
+
 Thats it.
 
 Thank you !
