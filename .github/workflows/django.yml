@@ -28,6 +28,7 @@ jobs:
          script: |
           cd /home/ubuntu/django
           sudo ls
+          sudo touch pujaa.txt
           sudo git pull origin master
           sudo docker build -t django_container .
           sudo docker run -p 3003:3002 --name d_container -d django_container
