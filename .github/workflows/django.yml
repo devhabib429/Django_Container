@@ -26,6 +26,7 @@ jobs:
          key: ${{ secrets.SSH_PRIVATE_KEY }}
          port: 22
          script: |
-          cd /home
+          cd /home/ubuntu/django
           sudo ls
-          sudo ls -a
+          sudo git pull origin master
+          
