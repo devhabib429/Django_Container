@@ -28,7 +28,7 @@ jobs:
          script: |
           cd /home/ubuntu/django
           sudo ls
-          sudo touch pujaa.txt
+          sudo rm -rf pujaa.txt
           sudo git pull origin master
           sudo docker stop d_container
           sudo docker rm d_container
